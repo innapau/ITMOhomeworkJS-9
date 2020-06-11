@@ -1,0 +1,47 @@
+#chart-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#present {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 2em auto;
+}
+
+.present_cell {
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.win {
+    background-color: green;
+}
+
+.lose {
+    background-color: red;
+}
+
+.table {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #959595;
+}
+
+.table-cell {
+    border: 1px solid #959595;
+    padding: 10px;
+}
+
+#headers {
+    cursor: pointer;
+}
