@@ -119,8 +119,8 @@ function sortTable(arr, dataIndex) {
     return resArr;
 }
 
-var headers = document.getElementById('headers');
-headers.addEventListener('click', run);
+let table = document.getElementById('books');
+table.addEventListener('click', run);
 
 function run(e) {
     let tagBooks = document.getElementById('books');
